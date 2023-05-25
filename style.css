@@ -1,0 +1,173 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-width: 100% !important;
+}
+
+.servicios .card{
+    width: 300px;
+    background: #64ba59;
+    color: aliceblue;
+}
+
+.servicios .card-img-top{
+    width: 299px;
+    height: 170px;
+}
+
+a:hover{
+	color: #000 !important;
+	background-color: rgb(86, 163, 68);
+}
+
+/*slider*/
+#carouselExampleIndicators{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('https://images.pexels.com/photos/3580281/pexels-photo-3580281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('https://images.pexels.com/photos/8543037/pexels-photo-8543037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('https://images.pexels.com/photos/7656988/pexels-photo-7656988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h4{
+	height: auto;
+	color: #fff;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 450;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: #ccc;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 450;
+}
+
+.bg-dark{
+	background-color: #1c2331 !important ;
+  }
+
+.sobre .row{
+    width: 100.8%;
+    height: 100%;
+    background-color: #64ba59;
+    border-color: transparent !important;
+
+}
+
+.sobre .card-body{
+    background-color: #64ba59;
+	width: 100.8%;
+}
+
+.sobre .card{
+    border-color: #64ba59 !important;
+
+}
+
+.sobre{
+    background-color: #64ba59;
+	
+}
+
+
+
+
+@media (min-width: 385px) and (max-width: 400px) {
+	.col-lg-3 {
+	  padding: 10px 23px !important;
+	}
+  }
+
+
+
+  @media (min-width: 400px) and (max-width: 415px) {
+	.col-lg-3 {
+	  padding: 10px 30px !important;
+	}
+  }
+
+  @media (min-width: 768px) and (max-width: 780px) {
+	.col-lg-3 {
+	  padding: 10px 28px !important;
+	}
+  }
+
+  @media (min-width: 781px) and (max-width: 800px) {
+	.col-lg-3 {
+	  padding: 10px 30px !important;
+	}
+  }
+
+  @media (min-width: 801px) and (max-width: 820px) {
+	.col-lg-3 {
+	  padding: 10px 35px !important;
+	}
+  }
+
+  @media (min-width: 821px) and (max-width: 840px) {
+	.col-lg-3 {
+	  padding: 10px 40px !important;
+	}
+  }
+
+

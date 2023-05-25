@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-width: 100% !important;
+}
+
+.servicios .card{
+    width: 300px;
+    background: rgb(66, 173, 66);
+    color: aliceblue;
+}
+
+.servicios .card-img-top{
+    width: 299px;
+    height: 170px;
+}
+a:hover{
+	color: #000 !important;
+	background-color: rgb(86, 163, 68);
+}
+
+/*slider*/
+#carouselExampleIndicators{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('https://images.pexels.com/photos/109391/pexels-photo-109391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('https://images.pexels.com/photos/418831/pexels-photo-418831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('https://images.pexels.com/photos/434334/pexels-photo-434334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h2{
+	height: auto;
+	color: #fff;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 520;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: #ccc;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.grosor{
+    font-weight: bold !important;
+}

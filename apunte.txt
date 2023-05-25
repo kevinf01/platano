@@ -1,0 +1,513 @@
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+.about__paragraph {
+  line-height: 1.5;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    
+  }
+  .about{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    place-items: center;
+}
+.title{
+    color:rgb(66, 173, 66);
+    column-span: all;
+}
+.about__course{
+    width: 90%;
+    columns: 200px 2;
+    column-gap: 25px;
+}
+.about-container {
+    columns: 200px 2;
+    column-gap: 25px;
+
+    max-width: 600px;
+    margin: 0 auto;
+  }
+.card__paragraph{
+    font-size: 20px;
+}
+.about__paragraph {
+  line-height: 1.5;
+   font-weight: 300;
+    display: flex;
+   
+    font-size: 20px;
+    
+  }
+
+  columns: 200px 2;
+    column-gap: 25px;
+
+    font-family:Open Sans;
+        font-size:18px;
+        line-height:31px;
+        margin:0px 0px 15px;
+        <div class="redes">
+                <ul>
+                    <li class="facebook"><a href="http://"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="http://"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="ws"><a href="http://"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="http://"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    
+                </ul>
+            </div>
+              margin-left: 120px; 
+
+.about{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    place-items: right;
+}
+
+.ceo-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.ceo-image {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.redes {
+  margin-top: 20px;
+}
+
+.redes {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+  margin-left: 100px;
+}
+
+.redes ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid blanchedalmond;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-facebook {
+  border: 5px solid #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.ws {
+  border: 5px solid #40f00aea;
+  box-shadow: 0 0 15px #0fff4b;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-whatsapp {
+  border: 5px solid #40f00aea;
+  text-shadow: 0 0 15px #0fff4b;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.instagram {
+  border: 5px solid #96078aea;
+  box-shadow: 0 0 15px #9a09ad;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-instagram {
+  border: 5px solid #96078aea;
+  text-shadow: 0 0 15px #9a09ad;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.twitter {
+  border: 5px solid #13a7d4ea;
+  box-shadow: 0 0 15px #00bcdd;
+  transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-twitter {
+  border: 5px solid #13a7d4ea
+{
+text-shadow: 0 0 15px #00bcdd;
+transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+.ceo-section {
+flex-direction: row;
+}
+
+.redes {
+margin-top: 0;
+margin-left: 20px;
+display: flex;
+align-items: center;
+}
+
+.redes ul li {
+margin: 10px;
+}
+}
+
+
+
+
+.redes ul li:hover.facebook {
+border: 5px solid #08dd24;
+box-shadow: 0 0 15px #3b5998;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-facebook {
+border: 5px solid #3b5998;
+text-shadow: 0 0 15px #3b5998;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.ws {
+border: 5px solid #40f00aea;
+box-shadow: 0 0 15px #0fff4b;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-whatsapp {
+border: 5px solid #40f00aea;
+text-shadow: 0 0 15px #0fff4b;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.instagram {
+border: 5px solid #96078aea;
+box-shadow: 0 0 15px #9a09ad;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-instagram {
+border: 5px solid #96078aea;
+text-shadow: 0 0 15px #9a09ad;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.twitter {
+border: 5px solid #13a7d4ea;
+box-shadow: 0 0 15px #00bcdd;
+transition: all 0.5s ease;
+}
+
+.redes ul li:hover.bi-twitter {
+border: 5px solid #13a7d4ea;
+text-shadow: 0 0 15px #00bcdd;
+transition: all 0.5s ease;
+}
+
+
+
+
+}
+.about__content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 0px solid #ccc;
+}
+
+.about__text {
+  flex: 1;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about__image {
+  flex: 1;
+  text-align: right;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__text,
+  .about__image {
+    text-align: center;
+  }
+}
+
+    @media (min-width: 768px) {
+      .about-container {
+        overflow: visible;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .about__content {
+        flex-direction: column;
+      }
+    
+      .about__image {
+        text-align: center;
+        margin-top: 10px; 
+      }
+    }
+    
+  ul {
+    list-style-type: none;
+  }
+  
+.about__picture{
+    text-align: center;
+}
+
+.about__img{
+    width: 95%;
+}
+
+
+
+.card{
+    background: #f2f2f2;
+}
+
+.card__copy{
+    margin-top: 20px;
+}
+
+.card__container{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+    grid-template-areas: 
+    ".      card1   .    "
+    "card2  card1   card3"
+    "card2  card4   card3"
+    ".      card4   .   ";
+}
+
+.card__item{
+    padding: 20px;
+    background: #fff;
+    border-top: 5px solid rgb(66, 173, 66);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border-bottom: 30px;
+    
+
+}
+
+.card__img{
+    background: var(--color-primary);
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__title{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color:rgb(66, 173, 66);
+}
+
+.card__paragraph{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card__item:nth-last-of-type(1){
+    grid-area: card1;
+}
+
+.card__item:nth-last-of-type(2){
+    grid-area: card2;
+}
+
+.card__item:nth-last-of-type(3){
+    grid-area: card3;
+}
+
+.card__item:nth-last-of-type(4){
+    grid-area: card4;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+    :root{
+        --padding-btn: 20px 0;
+    }
+
+
+    .hero__container{
+        --padding-container: 45px 0;
+    }
+
+    .hero__texts{
+        text-align: center;
+    }
+
+    .hero__title{
+        font-size: 3rem;
+    }
+
+    .hero__cta{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .cta{
+        display: block;
+    }
+
+
+
+
+    .card__container{
+        width: 97%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .card__container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+    }
+  }
+  @media screen and (max-width: 500px) {
+    :root {
+      --padding-btn: 20px 0;
+    }
+  
+    .hero__container {
+      --padding-container: 45px 0;
+    }
+  
+    .hero__texts {
+      text-align: center;
+    }
+  
+    .hero__title {
+      font-size: 3rem;
+    }
+  
+    .hero__cta {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .cta {
+      display: block;
+    }
+  
+    .card__container {
+      width: 97%;
+      grid-template-columns: 1
+      fr;
+grid-template-rows: repeat(4, 1fr);
+grid-template-areas:
+"card1"
+"card2"
+"card3"
+"card4";
+}
+}
+
+@media screen and (max-width: 768px) {
+.card__container {
+grid-template-columns: 1fr;
+grid-template-areas:
+"card1"
+"card2"
+"card3"
+"card4";
+}
+}
+
+@media screen and (max-width: 768px) {
+    .about__content {
+        flex-direction: column;
+    }
+
+    .about__image {
+        text-align: center;
+    }
+}
